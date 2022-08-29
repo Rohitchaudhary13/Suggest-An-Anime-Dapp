@@ -5,7 +5,7 @@ import { ethers } from "ethers";
 import './App.css';
 import abi from '../src/utils/WebPortal.json';
 import LoadingSpinner from "./components/Loader";
-import Footer from "./components/Footer";
+
 
 
 export default function App() {
@@ -211,7 +211,7 @@ export default function App() {
               </div>)
         })}
           </div>
-          <Footer />
+
       </div>
     </div>
   );
